@@ -1,0 +1,3 @@
+ALTER TABLE users
+ADD COLUMN `name` VARCHAR(255) NOT NULL AFTER `password`,
+ADD COLUMN `surname` VARCHAR(255) NULL AFTER `name`;

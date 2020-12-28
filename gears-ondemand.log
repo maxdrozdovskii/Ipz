@@ -1,0 +1,260 @@
+CLG[INFO] 09-24-2020 (13:59:00): 461153: **************************************Starting GEARS On-Demand Client**************************************
+CLG[INFO] 09-24-2020 (13:59:00): 461153: On-Demand version: 10.5.217.0
+CLG[INFO] 09-24-2020 (13:59:00): 461153: Looking for UI Server...
+CLG[INFO] 09-24-2020 (13:59:05): 461153: Started Event Listener.
+CLG[INFO] 09-24-2020 (13:59:05): 461153: Set V4 root location to "components/oesis_mac/"
+CLG[INFO] 09-24-2020 (13:59:05): 461153: Succeeded to load V4
+CLG[INFO] 09-24-2020 (13:59:05): 461153: App name: OPSWAT_GEARS_Client_3445-835dc08839b78a925c9f8882b85b3592.app
+CLG[INFO] 09-24-2020 (13:59:05): 461153: Host: https://gears.opswat.com
+CLG[INFO] 09-24-2020 (13:59:05): 461153: License key: 835dc08839b78a925c9f8882b85b3592
+CLG[INFO] 09-24-2020 (13:59:05): 461153: Custom ID: 
+CLG[INFO] 09-24-2020 (13:59:05): 461153: Run Once mode: 0
+CLG[INFO] 09-24-2020 (13:59:05): 461153: DeviceID: 
+CLG[INFO] 09-24-2020 (13:59:06): 461153: [JSONP SERVER] Setting up done
+CLG[INFO] 09-24-2020 (13:59:06): 461153: Building data for registration...
+CLG[INFO] 09-24-2020 (13:59:06): 461153: Fetching privacy settings...
+CLG[INFO] 09-24-2020 (13:59:06): 461153: Request: {"license_key":"835dc08839b78a925c9f8882b85b3592"}
+CLG[INFO] 09-24-2020 (13:59:06): 461153: Request URL: https://gears.opswat.com/gears/api/2/agent/fetch_privacy
+CLG[INFO] 09-24-2020 (13:59:07): 461153: Response code: 200
+CLG[INFO] 09-24-2020 (13:59:07): 461153: Response: {"username":0,"mac_addr":0,"local_ip":0,"public_ip":0,"hostname":0,"serial_number":0}
+CLG[INFO] 09-24-2020 (13:59:07): 461153: Initializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:20): 461153: Succeeded to initialize OESIS V4
+CLG[ERROR] 09-24-2020 (13:59:20): 461153: Errors in wa_api_setup's output: [{"code": -7, "module": "libwadlp.dylib", "timing": 0}, {"code": -9, "module": "libwanetscan.dylib", "timing": 0}, {"code": -9, "module": "libwaaddon.dylib", "timing": 0}, {"code": -9, "module": "libwaadbrowser.dylib", "timing": 0}, {"code": -9, "module": "libwacollector.dylib", "timing": 0}, {"code": -9, "module": "libwaremoval.dylib", "timing": 0}, {"code": -9, "module": "libwadriver.dylib", "timing": 0}]
+CLG[INFO] 09-24-2020 (13:59:27): 461153: Deinitializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Succeeded to deinitialize OESIS V4
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Done building data for registration
+CLG[INFO] 09-24-2020 (13:59:28): 461153: register request: {"hwid":"","linked_id":"df6029e106425ed0a6a56a499ab4f7c3","license_key":"835dc08839b78a925c9f8882b85b3592","agent_type":1,"hostname":"MacBook Air - Максим","user_info":[{"username":"maksimdrozdovskij","domain":"."}],"install_mode":1,"agent_version":"10.5.217.0","network_adapter_info":[{"description":"iPad","media_state":"","mac":"","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"awdl0","media_state":"","mac":"36:29:B3:12:95:D2","ipv4":"","dhcp_lease_expires":"","adapter_enabled":true,"dhcp_lease_obtained":"","dhcp_enabled":false,"ipv6":"fe80::3429:b3ff:fe12:95d2","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"iPhone USB","media_state":"","mac":"","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"iPhone USB","media_state":"","mac":"","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"Bluetooth PAN","media_state":"","mac":"","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"p2p0","media_state":"","mac":"06:76:BA:AB:72:5A","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":false,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"Apple ThunderboltIP","media_state":"","mac":"82:0D:4D:C3:00:00","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":false,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"DUB-E100 USB 2.0 to 10/100 Mbps Ethernet","media_state":"","mac":"","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"Apple Wireless Network Adapter (802.11 a/b/g/n/ac)","media_state":"","mac":"64:76:BA:AB:72:5A","ipv4":"192.168.1.104","dhcp_lease_expires":"1600949449","adapter_enabled":true,"dhcp_lease_obtained":"1600942249","dhcp_enabled":true,"ipv6":"","subnet_masks":["255.255.255.0"],"dhcp_server_address":"","default_gateways":["192.168.1.1"],"dns_server_addresses":["192.168.1.1"]},{"description":"USB 10/100/1000 LAN","media_state":"","mac":"","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"Thunderbolt Bridge","media_state":"","mac":"82:0D:4D:C3:00:00","ipv4":"","dhcp_lease_expires":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"ipv6":"","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]},{"description":"llw0","media_state":"","mac":"36:29:B3:12:95:D2","ipv4":"","dhcp_lease_expires":"","adapter_enabled":true,"dhcp_lease_obtained":"","dhcp_enabled":false,"ipv6":"fe80::3429:b3ff:fe12:95d2","subnet_masks":[],"dhcp_server_address":"","default_gateways":[],"dns_server_addresses":[]}],"device_type":1,"os_info":{"os_sp_version":"","os_architecture":"64-bit","os_vendor":"Apple Computer, Inc.","os_family":"Mac","os_version":"10.15.2","os_name":"macOS Catalina"}}
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Registration url: https://gears.opswat.com/gears/api/1/agent/register
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Sending register request is in progress
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Response code: 200
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Response: {"agent_token":"16DA9B636EBF3FD358B0ECC32312F64524112007","device_id":"df6029e106425ed0a6a56a499ab4f7c3"}
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Updating device ID with value df6029e106425ed0a6a56a499ab4f7c3
+CLG[INFO] 09-24-2020 (13:59:28): 461153: UUID detected
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Generated uuid 7E103FA7-A65F-4E66-B823-8BC808D4F23F for device id (mode UUID)
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Current device UUID: 7E103FA7A65F4E66B8238BC808D4F23F
+.
+CLG[INFO] 09-24-2020 (13:59:28): 461153: This is the first succcessful keep alive, always fetch server config
+CLG[INFO] 09-24-2020 (13:59:28): 461153: New config hash: 9e975b0a848049436201c53537d3cce8aef25fae89f51105781a12f53d15f83e
+CLG[INFO] 09-24-2020 (13:59:28): 461153: [getServerConfig] config request: {"hwid":"df6029e106425ed0a6a56a499ab4f7c3","opt":3,"config":[],"agent_token":"16DA9B636EBF3FD358B0ECC32312F64524112007","agent_type":1}
+CLG[INFO] 09-24-2020 (13:59:28): 461153: https://gears.opswat.com/gears/api/5/agent/fetch_config
+CLG[INFO] 09-24-2020 (13:59:28): 461153: Custom headers: {"agent_token": "16DA9B636EBF3FD358B0ECC32312F64524112007", "device_id": "df6029e106425ed0a6a56a499ab4f7c3"}
+CLG[INFO] 09-24-2020 (13:59:29): 461153: [getServerConfig] Response code: 200
+CLG[INFO] 09-24-2020 (13:59:29): 461153: [getServerConfig] Response: {"config":{"scanning_servers":{"suspicious_ip":"https://api.metadefender.com:443/v4","running_process":"https://api.metadefender.com:443/v4"},"pin_required":0,"client_cert":0,"show":1,"privacy":{"username":0,"mac_addr":0,"local_ip":0,"public_ip":0,"hostname":0,"serial_number":0},"autoupdate":1,"notification":0,"CustomCheck":{"path":"","enable":0,"run_as":2,"interval":10,"hash":"","timeout":10},"agent_url":"https://agent-update.opswat.com/osx_portable","app_ui":0,"notification_outdated":1,"user_identity":{"msg":"","regex":"","enable":0},"Cloud_Storage":[{"Running":1}],"delay_start":3,"expired_cmd":604800,"nac_domains":[],"media_security":{"manifest":{"enabled":0,"block_not_on_manifest":0,"trusted_d":7,"cert_hash":"","cert_url":"https://gears.opswat.com/gears/api/3/agent/get_cert_manifest/103523571"},"scan_rule":{"disable_hash_check":2,"engine_threshold":1,"include_engines":["Cyren","Emsisoft","K7"]},"scan_options":{"path":"","full_scan":0,"type":[0]},"scheduler":"24","scan_server":{"type":0,"api_key":"cebf48b279a38a2f4b0caf86ee8930e0","url":"https://api.metadefender.com:443/v4"},"enabled":0,"exclude_phone":1,"exclude_cd_dvd":0,"copy_from_drive_to":"","unblock_on_error":0,"copy_on_error":0,"sanitized":{"enabled":1,"use_sanitized_files":0},"blocked":0,"copy_to_drive":{"bucket":"opswat-gears-fetch-log","region":"us-east-1","report_copy_result":0},"actions":{"unblock":1,"copy_to_drive":1,"copy_from_drive":0},"enabled_sot":0,"vault":{"enabled":0,"action":2,"allowed_url":"","allowed_token":"","allowed_guest":0,"blocked_url":"","blocked_token":"","blocked_guest":0}},"oesis_url":"https://agent-update.opswat.com/oesis","mdc_submit":1,"os_patches":{"interval":21600,"enable":1},"bypass":{"notification":0,"type":"all","remained_time":[10,30,60]},"local_server":{"port":11369,"enable":1},"link_download":"https://gears.opswat.com/console/download/835dc08839b78a925c9f8882b85b3592/0051a00000393LXdefault","rp_time":600,"sdp":{"enable":0}}}
+CLG[INFO] 09-24-2020 (13:59:29): 461153: use_serial_id not found
+CLG[INFO] 09-24-2020 (13:59:29): 461153: [JSONP SERVER] Start successfully with port 11369
+CLG[INFO] 09-24-2020 (13:59:29): 461153: [updateClientStatus] Status changed: compliant -1 -> 0, issue 0 -> 0, critical 0 -> 0
+CLG[INFO] 09-24-2020 (13:59:29): 461995: Starting keepAliveThreadLoop
+.
+CLG[INFO] 09-24-2020 (13:59:29): 461996: Starting healthThreadLoop
+CLG[INFO] 09-24-2020 (13:59:29): 461996: healthThreadLoop acquired HealthThreadTaskLock
+CLG[INFO] 09-24-2020 (13:59:29): 461995: [UPDATER] Checking for updates...
+CLG[INFO] 09-24-2020 (13:59:29): 461995: Server configuration for key: notification_outdated is: 1
+CLG[INFO] 09-24-2020 (13:59:29): 461996: Client certificate disabled. Finding and deleting client certificate
+CLG[INFO] 09-24-2020 (13:59:29): 461995: Server configuration for key: agent_url is: https://agent-update.opswat.com/osx_portable
+CLG[INFO] 09-24-2020 (13:59:29): 461995: [UPDATER] Fetch latest version info from https://agent-update.opswat.com/osx_portable/version_osx_od.json
+CLG[INFO] 09-24-2020 (13:59:29): 461587: [JSONP SERVER] Serving on port 11369
+CLG[INFO] 09-24-2020 (13:59:29): 461995: [UPDATER] Installed verison: 10.5.217.0
+CLG[INFO] 09-24-2020 (13:59:29): 461995: [UPDATER] Latest verison: 10.5.217.0
+CLG[INFO] 09-24-2020 (13:59:29): 461995: [UPDATER] No update available
+CLG[INFO] 09-24-2020 (13:59:31): 461996: Remediating...
+CLG[INFO] 09-24-2020 (13:59:31): 461996: Initializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:33): 461996: Succeeded to initialize OESIS V4
+CLG[ERROR] 09-24-2020 (13:59:33): 461996: Errors in wa_api_setup's output: [{"code": -7, "module": "libwadlp.dylib", "timing": 0}, {"code": -9, "module": "libwanetscan.dylib", "timing": 0}, {"code": -9, "module": "libwaaddon.dylib", "timing": 0}, {"code": -9, "module": "libwaadbrowser.dylib", "timing": 1}, {"code": -9, "module": "libwacollector.dylib", "timing": 0}, {"code": -9, "module": "libwaremoval.dylib", "timing": 0}, {"code": -9, "module": "libwadriver.dylib", "timing": 0}]
+CLG[INFO] 09-24-2020 (13:59:33): 461996: Deinitializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:34): 461996: Succeeded to deinitialize OESIS V4
+CLG[INFO] 09-24-2020 (13:59:34): 461996: [HEALTHSCAN] Scan start
+CLG[INFO] 09-24-2020 (13:59:34): 461996: Server configuration for key: delay_start is: 3
+CLG[INFO] 09-24-2020 (13:59:34): 461996: Delay report time 180s - CPU up time 59162s -> Should wait 0s
+CLG[INFO] 09-24-2020 (13:59:34): 461996: Health Scan ********************
+CLG[INFO] 09-24-2020 (13:59:34): 461996: [HEALTHSCAN] Generating health report...
+CLG[INFO] 09-24-2020 (13:59:34): 461996: Initializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:36): 461996: Succeeded to initialize OESIS V4
+CLG[ERROR] 09-24-2020 (13:59:36): 461996: Errors in wa_api_setup's output: [{"code": -7, "module": "libwadlp.dylib", "timing": 0}, {"code": -9, "module": "libwanetscan.dylib", "timing": 0}, {"code": -9, "module": "libwaaddon.dylib", "timing": 0}, {"code": -9, "module": "libwaadbrowser.dylib", "timing": 1}, {"code": -9, "module": "libwacollector.dylib", "timing": 0}, {"code": -9, "module": "libwaremoval.dylib", "timing": 0}, {"code": -9, "module": "libwadriver.dylib", "timing": 0}]
+CLG[INFO] 09-24-2020 (13:59:36): 461996: Detecting OESIS products...
+CLG[INFO] 09-24-2020 (13:59:36): 461996: Detecting operating system info...
+CLG[ERROR] 09-24-2020 (13:59:39): 461996: Invoke() failed; {"json_in": {"input": {"method": 30004}}, "json_out": {"error": {"code": -11, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_SUPPORTED", "description": "Defines an error when a method call was made on a component that does not support it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -11, "errors": [{"code": -28, "message": "Id -1 not found in the database", "returned_at": "wa_utils_database.cpp:1143"}, {"code": -28, "returned_at": "wa_utils_database.cpp:853"}, {"code": -11, "errors": [{"called_at": "wa_impl_devinfo.cpp:117", "code": -11, "method": "WaDevInfoDispatcher::dispatch( wajsonIn, json_out )"}, {"code": -11, "returned_at": "wa_utils_component_manager.cpp:235"}], "returned_at": "wa_api_dispatcher.cpp:228"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 30004, "timestamp": "1600945179", "timing": 1}}}
+CLG[ERROR] 09-24-2020 (13:59:39): 461996: Error getting hard disk size
+CLG[INFO] 09-24-2020 (13:59:39): 461996: Getting screen lock timeout...
+CLG[INFO] 09-24-2020 (13:59:40): 461996: Detecting antiphishing products...
+CLG[INFO] 09-24-2020 (13:59:41): 461996: Detecting antivirus products...
+CLG[ERROR] 09-24-2020 (13:59:41): 461996: Invoke() failed; {"json_in": {"input": {"method": 1001, "signature": 100141}}, "json_out": {"error": {"code": -11, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_SUPPORTED", "description": "Defines an error when a method call was made on a component that does not support it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -11, "errors": [{"code": -11, "message": "The method has a fixed return. The error code is expected.", "returned_at": "wa_api_dispatcher.cpp:157"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1001, "signature": 100141, "timestamp": "1600945181", "timing": 0}}}
+CLG[ERROR] 09-24-2020 (13:59:41): 461996: Invoke() failed; {"json_in": {"input": {"method": 1004, "scan_type": "full", "signature": 100141}}, "json_out": {"error": {"code": -11, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_SUPPORTED", "description": "Defines an error when a method call was made on a component that does not support it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -11, "errors": [{"code": -11, "message": "The method has a fixed return. The error code is expected.", "returned_at": "wa_api_dispatcher.cpp:157"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1004, "signature": 100141, "timestamp": "1600945181", "timing": 1}}}
+CLG[ERROR] 09-24-2020 (13:59:41): 461996: Invoke() failed; {"json_in": {"input": {"method": 1002, "signature": 100141}}, "json_out": {"error": {"code": -12, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_IMPLEMENTED", "description": "Defines an error when a method call was made on a component that does not implement it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -12, "errors": [{"code": -12, "errors": [{"called_at": "wa_impl_scripting.cpp:279", "code": -27, "errors": [{"called_at": "wa_impl_scripting.cpp:91", "code": -28, "method": "defMethodScripts.dotGet( string_cast<wa_wstring>(method_id) + L\".\" + L\"manageability\", scriptId )"}], "method": "_helper_get_script_from_method_id(signature, method_id, script, requirements )"}, {"code": -12, "message": "Failed to get script for method 1002 and signature 100141", "returned_at": "wa_impl_scripting.cpp:280"}, {"code": -12, "returned_at": "wa_utils_component_manager.cpp:235"}], "returned_at": "wa_api_dispatcher.cpp:228"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1002, "signature": 100141, "timestamp": "1600945181", "timing": 0}}}
+CLG[ERROR] 09-24-2020 (13:59:41): 461996: Invoke() failed; {"json_in": {"input": {"method": 1000, "signature": 100364}}, "json_out": {"error": {"code": -27, "define": "WAAPI_ERROR_NATIVE_API", "description": "Defines an error in a native system API.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -27, "errors": [{"code": -27, "errors": [{"code": -27, "message": "Exec failed.", "returned_at": "wa_utils_process.cpp:297"}, {"code": -27, "returned_at": "wa_squirrel_utils.h:188"}, {"code": -27, "message": "Failed to get stack error from scripting engine", "returned_at": "wa_nutjob.cpp:288"}, {"code": -27, "returned_at": "wa_impl_scripting.cpp:338"}, {"code": -27, "returned_at": "wa_utils_component_manager.cpp:235"}], "returned_at": "wa_api_dispatcher.cpp:209"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1000, "signature": 100364, "timestamp": "1600945181", "timing": 12}}}
+CLG[ERROR] 09-24-2020 (13:59:41): 461996: Invoke() failed; {"json_in": {"input": {"method": 1004, "scan_type": "full", "signature": 100364}}, "json_out": {"error": {"code": -12, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_IMPLEMENTED", "description": "Defines an error when a method call was made on a component that does not implement it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -12, "errors": [{"code": -12, "errors": [{"called_at": "wa_impl_scripting.cpp:279", "code": -27, "errors": [{"called_at": "wa_impl_scripting.cpp:91", "code": -28, "method": "defMethodScripts.dotGet( string_cast<wa_wstring>(method_id) + L\".\" + L\"manageability\", scriptId )"}], "method": "_helper_get_script_from_method_id(signature, method_id, script, requirements )"}, {"code": -12, "message": "Failed to get script for method 1004 and signature 100364", "returned_at": "wa_impl_scripting.cpp:280"}, {"code": -12, "returned_at": "wa_utils_component_manager.cpp:235"}], "returned_at": "wa_api_dispatcher.cpp:228"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1004, "signature": 100364, "timestamp": "1600945181", "timing": 0}}}
+CLG[ERROR] 09-24-2020 (13:59:41): 461996: Invoke() failed; {"json_in": {"input": {"method": 1002, "signature": 100364}}, "json_out": {"error": {"code": -12, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_IMPLEMENTED", "description": "Defines an error when a method call was made on a component that does not implement it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -12, "errors": [{"code": -12, "errors": [{"called_at": "wa_impl_scripting.cpp:279", "code": -27, "errors": [{"called_at": "wa_impl_scripting.cpp:91", "code": -28, "method": "defMethodScripts.dotGet( string_cast<wa_wstring>(method_id) + L\".\" + L\"manageability\", scriptId )"}], "method": "_helper_get_script_from_method_id(signature, method_id, script, requirements )"}, {"code": -12, "message": "Failed to get script for method 1002 and signature 100364", "returned_at": "wa_impl_scripting.cpp:280"}, {"code": -12, "returned_at": "wa_utils_component_manager.cpp:235"}], "returned_at": "wa_api_dispatcher.cpp:228"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1002, "signature": 100364, "timestamp": "1600945181", "timing": 1}}}
+CLG[INFO] 09-24-2020 (13:59:41): 461996: Detecting backup products...
+CLG[INFO] 09-24-2020 (13:59:41): 461996: Detecting cloud storage products...
+CLG[INFO] 09-24-2020 (13:59:42): 461996: Detecting firewall products...
+CLG[INFO] 09-24-2020 (13:59:42): 461996: Detecting hard disk encryption products...
+CLG[INFO] 09-24-2020 (13:59:44): 461996: Detecting public file sharing products...
+CLG[INFO] 09-24-2020 (13:59:44): 461996: Detecting browser products...
+CLG[INFO] 09-24-2020 (13:59:45): 461996: Detecting instant messenger products...
+CLG[INFO] 09-24-2020 (13:59:45): 461996: Detecting data loss prevention products...
+CLG[INFO] 09-24-2020 (13:59:45): 461996: Detecting VPN client products...
+CLG[INFO] 09-24-2020 (13:59:45): 461996: Detecting virtual machine products...
+CLG[INFO] 09-24-2020 (13:59:46): 461996: Detecting remote control products...
+CLG[INFO] 09-24-2020 (13:59:46): 461996: Detecting unclassified products...
+CLG[INFO] 09-24-2020 (13:59:46): 461996: Detecting PUA products...
+Received Request from App:
+POST /getScanProgression HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (13:59:47): 462563: Response for request 'getScanProgression' sent by 'App'
+{}
+Received Request from App:
+POST /getUiMode HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (13:59:47): 462565: Response for request 'getUiMode' sent by 'App'
+{"uiMode":0,"showVulnerabilityScan":true,"appUI":0,"showMalwareScan":false}
+CLG[INFO] 09-24-2020 (13:59:47): 461996: Detecting label with PUA products...
+CLG[INFO] 09-24-2020 (13:59:48): 461996: Deinitializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:49): 461996: Succeeded to deinitialize OESIS V4
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Health report is builded successfully
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Sending report
+CLG[INFO] 09-24-2020 (13:59:49): 461996: markAllCompletedForType: soh
+CLG[INFO] 09-24-2020 (13:59:49): 461996: createDirectoryAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/soh/completed completed
+CLG[INFO] 09-24-2020 (13:59:49): 461996: markCompletedHash: (null) forType: soh
+CLG[INFO] 09-24-2020 (13:59:49): 461996: createDirectoryAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/soh/completed completed
+CLG[INFO] 09-24-2020 (13:59:49): 461996: moveItemAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/soh/running/(null) toPath: /usr/local/lib/opswat/metascan/cmd_hashes/soh/completed/(null) failed
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Sending health report to cloud...
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Health report: {"scan_time":"2020-09-24T10:59:49Z","soh_hash":"","agent_type":1,"agent_token":"16DA9B636EBF3FD358B0ECC32312F64524112007","hostname":"MacBook Air - Максим","agent_version":"10.5.217.0","Hardware_ID":"df6029e106425ed0a6a56a499ab4f7c3","soh":{"OESIS":{"Cleaner_Optimizer":[],"Operating_System_Info":[{"SysVolumeTotal":"","Domain":".","LockScreenTimeout":-11,"Last_Reboot":1600837514,"OS_Architecture":"64-bit","Network_adapters":{"Network_adapter 7":{"description":"iPad","media_state":"","MAC":"","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 1":{"description":"awdl0","media_state":"","MAC":"36:29:B3:12:95:D2","dhcp_lease_expires":"","IPV4":"","adapter_enabled":true,"dhcp_lease_obtained":"","dhcp_enabled":false,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"fe80::3429:b3ff:fe12:95d2","dns_server_addresses":[]},"Network_adapter 6":{"description":"iPhone USB","media_state":"","MAC":"","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 10":{"description":"iPhone USB","media_state":"","MAC":"","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 5":{"description":"Bluetooth PAN","media_state":"","MAC":"","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 12":{"description":"p2p0","media_state":"","MAC":"06:76:BA:AB:72:5A","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":false,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 4":{"description":"Apple ThunderboltIP","media_state":"","MAC":"82:0D:4D:C3:00:00","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":false,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 9":{"description":"DUB-E100 USB 2.0 to 10/100 Mbps Ethernet","media_state":"","MAC":"","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 3":{"description":"Apple Wireless Network Adapter (802.11 a/b/g/n/ac)","media_state":"","MAC":"64:76:BA:AB:72:5A","dhcp_lease_expires":"1600949449","IPV4":"192.168.1.104","adapter_enabled":true,"dhcp_lease_obtained":"1600942249","dhcp_enabled":true,"default_gateways":["192.168.1.1"],"subnet_masks":["255.255.255.0"],"dhcp_server_address":"","IPV6":"","dns_server_addresses":["192.168.1.1"]},"Network_adapter 8":{"description":"USB 10/100/1000 LAN","media_state":"","MAC":"","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 2":{"description":"Thunderbolt Bridge","media_state":"","MAC":"82:0D:4D:C3:00:00","dhcp_lease_expires":"","IPV4":"","adapter_enabled":false,"dhcp_lease_obtained":"","dhcp_enabled":true,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"","dns_server_addresses":[]},"Network_adapter 11":{"description":"llw0","media_state":"","MAC":"36:29:B3:12:95:D2","dhcp_lease_expires":"","IPV4":"","adapter_enabled":true,"dhcp_lease_obtained":"","dhcp_enabled":false,"default_gateways":[],"subnet_masks":[],"dhcp_server_address":"","IPV6":"fe80::3429:b3ff:fe12:95d2","dns_server_addresses":[]}},"OS_Family":"Mac","OS_Language":"English (Ukraine)","OS_Vendor":"Apple Computer, Inc.","ActiveUserSession":0,"OS_Version":"10.15.2","SystemVolume":"Macintosh HD","UserPasswordSet":1,"Username":"maksimdrozdovskij","MachineType":1,"OS_Name":"macOS Catalina","SysVolumeFree":""}],"Media_Player":[],"Cloud_Storage":[],"Unclassified":[{"ID":100275,"VENDOR":"Apple Inc.","VERSION":"10.5","PRODUCT_NAME":"QuickTime Player"},{"ID":100283,"VENDOR":"VideoLAN","VERSION":"3.0.8","PRODUCT_NAME":"VLC"},{"ID":100334,"VENDOR":"OPSWAT, Inc.","VERSION":"10.5.217.0","PRODUCT_NAME":"OPSWAT Client"},{"ID":100350,"VENDOR":"Adobe Systems Inc.","VERSION":"20.012.20043","PRODUCT_NAME":"Adobe Acrobat Reader DC Continuous"}],"Uninstaller":[],"Recording_Web_Meeting":[],"Developer_Tool":[],"Toolbars":[],"Antivirus":[{"Data File Engine Version":"","IsLastFullScanTimeSupported":0,"ID":100141,"VENDOR":"Apple Inc.","Last Full Scan Time":"","Running":1,"VERSION":"10.15.2","Threats":[],"Data File DateTime":"","Data File Version":"","IsDataFileDateTimeSupported":0,"IsRunningSupported":1,"PRODUCT_NAME":"Gatekeeper"},{"Data File Engine Version":"","IsLastFullScanTimeSupported":0,"ID":100364,"VENDOR":"MacPaw Inc.","Last Full Scan Time":"","Running":0,"VERSION":"4.0.0b1","Threats":[],"Data File DateTime":"","Data File Version":"0","IsDataFileDateTimeSupported":1,"IsRunningSupported":0,"PRODUCT_NAME":"CleanMyMac X"}],"Remote_Control":[{"ID":100282,"VENDOR":"Zoom Video Communications, Inc.","VERSION":"5.0.3 (24978.0517)","Status":1,"PRODUCT_NAME":"Zoom"}],"Firewall":[{"ID":100189,"VENDOR":"Apple Inc.","VERSION":"10.15.2","Enabled":0,"IsEnabledSupported":1,"PRODUCT_NAME":"Mac OS X Builtin Firewall"}],"VPN_Client":[],"Virtual_Machine":[{"ID":100219,"VENDOR":"Parallels, Inc.","VERSION":"13.3.1","PRODUCT_NAME":"Parallels Desktop"}],"Antiphishing":[{"ID":100004,"VENDOR":"Google Inc.","VERSION":"85.0.4183.121","Enabled":1,"IsEnabledSupported":1,"PRODUCT_NAME":"Google Chrome"},{"ID":100190,"VENDOR":"Apple Inc.","VERSION":"13.0.4","Enabled":1,"IsEnabledSupported":1,"PRODUCT_NAME":"Safari"}],"Data_Loss_Prevention":[],"BackupClient":[],"Hard_Disk_Encryption":{"SystemVolume":"Macintosh HD","products":[{"ID":100145,"VENDOR":"Apple Inc.","VERSION":"10.15.2","EncryptionStateSupported":0,"Encrypted_Volumes":{"Macintosh HD - Data":{"Location_Type":"physical","Encryption_State":{"ENCRYPTIONSTATE":0},"Location_Encryptable":true,"Encryption_Algorithm":{"Algorithm":"","Key_Length":0,"Mode_of_Operation":0}},"Macintosh HD":{"Location_Type":"physical","Encryption_State":{"ENCRYPTIONSTATE":0},"Location_Encryptable":true,"Encryption_Algorithm":{"Algorithm":"","Key_Length":0,"Mode_of_Operation":0}},"VM":{"Location_Type":"physical","Encryption_State":{"ENCRYPTIONSTATE":0},"Location_Encryptable":false,"Encryption_Algorithm":{"Algorithm":"","Key_Length":0,"Mode_of_Operation":0}}},"PRODUCT_NAME":"FileVault"}]},"Unclassified_PUA":[],"PublicFileSharing":[{"ID":100036,"VENDOR":"The Transmission Project","VERSION":"2.94","Status":1,"PRODUCT_NAME":"Transmission"}],"Instant_Messegener":[{"ID":100239,"VENDOR":"Skype Technologies S.A.","VERSION":"8.59","Status":1,"PRODUCT_NAME":"Skype"},{"ID":100254,"VENDOR":"Apple Inc.","VERSION":"13.0","Status":1,"PRODUCT_NAME":"Messages"}],"PUA":[],"Browser":[{"ID":100004,"VENDOR":"Google Inc.","VERSION":"85.0.4183.121","PRODUCT_NAME":"Google Chrome"},{"ID":100190,"VENDOR":"Apple Inc.","VERSION":"13.0.4","PRODUCT_NAME":"Safari"}]}},"explanation_result":"","device_id":"df6029e106425ed0a6a56a499ab4f7c3","action_result":1,"oesis_version":"4.3.1301.0"}
+CLG[INFO] 09-24-2020 (13:59:49): 461996: getCompletedCmdHashesForType: soh
+CLG[INFO] 09-24-2020 (13:59:49): 461996: completedCmdHashesForType: soh is ""
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Request URL: https://gears.opswat.com/gears/api/5/agent/report_soh
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Custom headers: {"agent_token": "16DA9B636EBF3FD358B0ECC32312F64524112007", "agent_version": "10.5.217.0", "device_id": "df6029e106425ed0a6a56a499ab4f7c3", "report_hash": ""}
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Response code: 202
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Response: {"remediation_link":"https://gears.opswat.com/console/remediation/0051a00000393LX/df6029e106425ed0a6a56a499ab4f7c3/E774E439B77C6A7D70542FB6813590D527092010","message_id":"5f6c7c25d2d5486a46cafe15"}
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [HEALTHSCAN] Remediation link: https://gears.opswat.com/console/remediation/0051a00000393LX/df6029e106425ed0a6a56a499ab4f7c3/E774E439B77C6A7D70542FB6813590D527092010
+CLG[INFO] 09-24-2020 (13:59:49): 461996: clearCompletedCmdHashesForType: soh
+CLG[INFO] 09-24-2020 (13:59:49): 461996: createDirectoryAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/soh/sent completed
+CLG[INFO] 09-24-2020 (13:59:49): 461996: [getServerConfig] config request: {"hwid":"df6029e106425ed0a6a56a499ab4f7c3","opt":3,"config":["Antivirus"],"agent_token":"16DA9B636EBF3FD358B0ECC32312F64524112007","agent_type":1}
+CLG[INFO] 09-24-2020 (13:59:49): 461996: https://gears.opswat.com/gears/api/5/agent/fetch_config
+CLG[INFO] 09-24-2020 (13:59:49): 461996: Custom headers: {"agent_token": "16DA9B636EBF3FD358B0ECC32312F64524112007", "device_id": "df6029e106425ed0a6a56a499ab4f7c3"}
+CLG[INFO] 09-24-2020 (13:59:50): 461996: [getServerConfig] Response code: 200
+CLG[INFO] 09-24-2020 (13:59:50): 461996: [getServerConfig] Response: {"config":{"scanning_servers":{"suspicious_ip":"https://api.metadefender.com:443/v4","running_process":"https://api.metadefender.com:443/v4"},"agent_url":"https://agent-update.opswat.com/osx_portable","oesis_url":"https://agent-update.opswat.com/oesis"}}
+CLG[ERROR] 09-24-2020 (13:59:50): 461996: Failed to update config for key Antivirus because value is not a string.
+CLG[INFO] 09-24-2020 (13:59:50): 461996: Remediating...
+CLG[INFO] 09-24-2020 (13:59:50): 461996: Initializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:52): 461996: Succeeded to initialize OESIS V4
+CLG[ERROR] 09-24-2020 (13:59:52): 461996: Errors in wa_api_setup's output: [{"code": -7, "module": "libwadlp.dylib", "timing": 1}, {"code": -9, "module": "libwanetscan.dylib", "timing": 0}, {"code": -9, "module": "libwaaddon.dylib", "timing": 0}, {"code": -9, "module": "libwaadbrowser.dylib", "timing": 0}, {"code": -9, "module": "libwacollector.dylib", "timing": 0}, {"code": -9, "module": "libwaremoval.dylib", "timing": 1}, {"code": -9, "module": "libwadriver.dylib", "timing": 0}]
+CLG[INFO] 09-24-2020 (13:59:52): 461996: Deinitializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:53): 461985: [JSONP SERVER] RequestURL: /opswat/devinfo?callback=__jp4
+CLG[INFO] 09-24-2020 (13:59:53): 461985: [JSONP SERVER] response with code: 0
+CLG[INFO] 09-24-2020 (13:59:53): 461996: Succeeded to deinitialize OESIS V4
+CLG[INFO] 09-24-2020 (13:59:53): 461996: [HEALTHSCAN] Succeeded to send health report to cloud
+CLG[INFO] 09-24-2020 (13:59:53): 461996: [HEALTHSCAN] 1 successes
+CLG[INFO] 09-24-2020 (13:59:53): 461996: healthThreadLoop removed HealthThreadTaskLock
+CLG[INFO] 09-24-2020 (13:59:54): 462743: Starting vulnerabilityScanThreadLoop
+CLG[INFO] 09-24-2020 (13:59:54): 462743: shouldRestoreSov
+CLG[INFO] 09-24-2020 (13:59:54): 462743: checking fileExistsAtPath: /usr/local/lib/opswat/MetadefenderEndpoint/restore_sov_flags
+CLG[INFO] 09-24-2020 (13:59:54): 462743: vulnerabilityScanThreadLoop acquired RunOneTaskAtATimeLock
+CLG[INFO] 09-24-2020 (13:59:54): 462743: Server configuration for key: delay_start is: 3
+CLG[INFO] 09-24-2020 (13:59:54): 462743: Delay report time 180s - CPU up time 59181s -> Should wait 0s
+CLG[INFO] 09-24-2020 (13:59:54): 462743: Vulnerabilitiy Scan ********************
+CLG[INFO] 09-24-2020 (13:59:54): 462743: [VULNERABILITYSCAN] Generating vulnerability report...
+CLG[INFO] 09-24-2020 (13:59:54): 462743: Initializing OESIS V4...
+CLG[INFO] 09-24-2020 (13:59:55): 462743: Succeeded to initialize OESIS V4
+CLG[ERROR] 09-24-2020 (13:59:55): 462743: Errors in wa_api_setup's output: [{"code": -7, "module": "libwadlp.dylib", "timing": 1}, {"code": -9, "module": "libwanetscan.dylib", "timing": 0}, {"code": -9, "module": "libwaaddon.dylib", "timing": 1}, {"code": -9, "module": "libwaadbrowser.dylib", "timing": 0}, {"code": -9, "module": "libwacollector.dylib", "timing": 0}, {"code": -9, "module": "libwaremoval.dylib", "timing": 1}, {"code": -9, "module": "libwadriver.dylib", "timing": 0}]
+CLG[INFO] 09-24-2020 (13:59:55): 462743: Detecting missing patches...
+CLG[INFO] 09-24-2020 (14:00:04): 462946: Starting threatDetectionThreadLoop
+CLG[INFO] 09-24-2020 (14:00:04): 462946: threatDetectionThreadLoop acquired ThreatDetectionThreadTaskLock
+CLG[INFO] 09-24-2020 (14:00:04): 462946: Server configuration for key: delay_start is: 3
+CLG[INFO] 09-24-2020 (14:00:04): 462946: Delay report time 180s - CPU up time 59191s -> Should wait 0s
+CLG[INFO] 09-24-2020 (14:00:04): 462946: Threat Detection ********************
+CLG[INFO] 09-24-2020 (14:00:04): 462946: [THREAT_DETECTION] Threat detection is disabled
+CLG[INFO] 09-24-2020 (14:00:04): 462946: threatDetectionThreadLoop removed ThreatDetectionThreadTaskLock
+CLG[INFO] 09-24-2020 (14:00:04): 462946: [THREAT_DETECTION] Scheduler: 24
+CLG[INFO] 09-24-2020 (14:00:04): 462946: [THREAT_DETECTION] Wake up at: 2020-09-25 14:00:04
+Received Request from App:
+POST /getScanProgression HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (14:00:09): 462987: Response for request 'getScanProgression' sent by 'App'
+{}
+Received Request from App:
+POST /getUiMode HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (14:00:09): 462990: Response for request 'getUiMode' sent by 'App'
+{"uiMode":0,"showVulnerabilityScan":true,"appUI":0,"showMalwareScan":false}
+CLG[ERROR] 09-24-2020 (14:00:26): 462743: Invoke() failed; {"json_in": {"input": {"method": 1012, "signature": 100364}}, "json_out": {"error": {"code": -12, "define": "WAAPI_ERROR_COMPONENT_METHOD_NOT_IMPLEMENTED", "description": "Defines an error when a method call was made on a component that does not implement it.", "errors": [{"called_at": "wa_api.cpp:1114", "code": -12, "errors": [{"code": -12, "errors": [{"called_at": "wa_impl_scripting.cpp:279", "code": -27, "errors": [{"called_at": "wa_impl_scripting.cpp:91", "code": -28, "method": "defMethodScripts.dotGet( string_cast<wa_wstring>(method_id) + L\".\" + L\"manageability\", scriptId )"}], "method": "_helper_get_script_from_method_id(signature, method_id, script, requirements )"}, {"code": -12, "message": "Failed to get script for method 1012 and signature 100364", "returned_at": "wa_impl_scripting.cpp:280"}, {"code": -12, "returned_at": "wa_utils_component_manager.cpp:235"}], "returned_at": "wa_api_dispatcher.cpp:228"}], "method": "dispatcher.dispatch( wjIn, wjOut )"}], "method": 1012, "signature": 100364, "timestamp": "1600945226", "timing": 1}}}
+CLG[ERROR] 09-24-2020 (14:00:26): 462743: Failed to get the value of patches field by CleanMyMac X
+CLG[INFO] 09-24-2020 (14:00:26): 462743: [VULNERABILITYSCAN] Succeeded to detect vulnerabilities
+CLG[INFO] 09-24-2020 (14:00:26): 462743: Deinitializing OESIS V4...
+CLG[INFO] 09-24-2020 (14:00:27): 462743: Succeeded to deinitialize OESIS V4
+CLG[INFO] 09-24-2020 (14:00:27): 462743: markAllCompletedForType: sov
+CLG[INFO] 09-24-2020 (14:00:27): 462743: createDirectoryAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/sov/completed completed
+CLG[INFO] 09-24-2020 (14:00:27): 462743: markCompletedHash: (null) forType: sov
+CLG[INFO] 09-24-2020 (14:00:27): 462743: createDirectoryAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/sov/completed completed
+CLG[INFO] 09-24-2020 (14:00:27): 462743: moveItemAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/sov/running/(null) toPath: /usr/local/lib/opswat/metascan/cmd_hashes/sov/completed/(null) failed
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Sending vulnerability report to cloud...
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] last_sov_hash = 
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] sov_hash = eabbef85afdaf4943c68a9b12846d1d9b43a13dce9fe9de81a448724d4430833
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Vulnerability report: {"action_result":2,"explanation_result":"Some errors occurred","device_id":"df6029e106425ed0a6a56a499ab4f7c3","hostname":"MacBook Air - Максим","agent_type":1,"Hardware_ID":"df6029e106425ed0a6a56a499ab4f7c3","agent_version":"10.5.217.0","sov":[{"vendor":"Apple Inc.","is_enabled":1,"id":100192,"is_running":0,"patches":[{"category":"update","product":"Title: macOS Catalina","vendor":"Apple Inc.","title":"Label: macOS Catalina 10.15.6 Update- ","date":"","description":"Title: macOS Catalina 10.15.6 Update","severity":"moderate"},{"category":"update","product":"","vendor":"Apple Inc.","title":"Label: 061-10039-3.4","date":"","description":"Title: Canon Inkjet Printer Software Update","severity":"moderate"}],"version":"3.0","name":"Software Update"}],"agent_token":"16DA9B636EBF3FD358B0ECC32312F64524112007"}
+CLG[INFO] 09-24-2020 (14:00:27): 462743: getCompletedCmdHashesForType: sov
+CLG[INFO] 09-24-2020 (14:00:27): 462743: completedCmdHashesForType: sov is ""
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Request URL: https://gears.opswat.com/gears/api/5/agent/report_sov
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Custom headers: {"agent_token": "16DA9B636EBF3FD358B0ECC32312F64524112007", "agent_version": "10.5.217.0", "device_id": "df6029e106425ed0a6a56a499ab4f7c3", "report_hash": "eabbef85afdaf4943c68a9b12846d1d9b43a13dce9fe9de81a448724d4430833"}
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Response code: 202
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Response: {"remediation_link":"https://gears.opswat.com/console/remediation/0051a00000393LX/df6029e106425ed0a6a56a499ab4f7c3/7D4A310B8405F8116B85EFD922F3022A27092011","message_id":"5f6c7c4bd2d5486a46cb3881"}
+CLG[INFO] 09-24-2020 (14:00:27): 462743: [VULNERABILITYSCAN] Remediation link: https://gears.opswat.com/console/remediation/0051a00000393LX/df6029e106425ed0a6a56a499ab4f7c3/7D4A310B8405F8116B85EFD922F3022A27092011
+CLG[INFO] 09-24-2020 (14:00:27): 462743: clearCompletedCmdHashesForType: sov
+CLG[INFO] 09-24-2020 (14:00:27): 462743: createDirectoryAtPath: /usr/local/lib/opswat/metascan/cmd_hashes/sov/sent completed
+CLG[INFO] 09-24-2020 (14:00:27): 462743: vulnerabilityScanThreadLoop removed RunOneTaskAtATimeLock
+.
+CLG[INFO] 09-24-2020 (14:00:30): 462113: [JSONP SERVER] Serving on port 11369
+CLG[INFO] 09-24-2020 (14:00:30): 462113: [updateClientStatus] Status changed: compliant 0 -> 0, issue 0 -> 1, critical 0 -> 1
+Received Request from App:
+POST /getScanProgression HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (14:01:13): 464446: Response for request 'getScanProgression' sent by 'App'
+{}
+Received Request from App:
+POST /getUiMode HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (14:01:13): 464447: Response for request 'getUiMode' sent by 'App'
+{"uiMode":0,"showVulnerabilityScan":true,"appUI":0,"showMalwareScan":false}
+Received Request from App:
+POST /getScanProgression HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (14:01:22): 464618: Response for request 'getScanProgression' sent by 'App'
+{}
+Received Request from App:
+POST /getUiMode HTTP/1.1
+Host: App
+Origin: opswat://app
+
+CLG[INFO] 09-24-2020 (14:01:22): 464620: Response for request 'getUiMode' sent by 'App'
+{"uiMode":0,"showVulnerabilityScan":true,"appUI":0,"showMalwareScan":false}
+...
+
+CLG[INFO] 09-24-2020 (14:01:25): 461153: Signal SIGTERM caught
+Received Request from App:
+POST /AppExit HTTP/1.1
+Host: App
+Origin: opswat://app
+
+
+CLG[INFO] 09-24-2020 (14:01:25): 464887: Response for request 'AppExit' sent by 'App'
+{}
+Received Request from App:
+POST /AppHidden HTTP/1.1
+Host: App
+Origin: opswat://app
+
+
+CLG[INFO] 09-24-2020 (14:01:26): 464890: Response for request 'AppHidden' sent by 'App'
+{}
+CLG[INFO] 09-24-2020 (14:01:27): 461153: **************************************Exiting**************************************
