@@ -1,18 +1,32 @@
 spring:
-  datasource:
-    url: jdbc:mariadb://127.0.0.1:3306/railway
-    username: root
-    password: root
-    driverClassName: org.mariadb.jdbc.Driver
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/RailwayDB
+#    username: root
+#    password: root123123
+#    driverClassName: com.mysql.jdbc.Driver
   jpa:
-#    show-sql: true
+    #    show-sql: true
     hibernate:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.MySQL5Dialect
   resources:
     static-locations: classpath:/static/
 
+
 flyway:
   enabled: true
   locations: classpath:db/migration
   init-on-migrate: true
+
+
+  runtime: java
+  env: flex
+  runtime_config:
+    jdk: openjdk8
+  env_variables:
+    SPRING_PROFILES_ACTIVE: "gcp,mysql"
+  handlers:
+    - url: /.*
+      script: this field is required, but ignored
+  manual_scaling:
+    instances: 1
